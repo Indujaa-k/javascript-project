@@ -17,7 +17,6 @@ const arr =JSON.parse(localStorage.getItem('arr'))||[];
         totalvalue+=html;
       
     });
-      console.log(totalvalue);
       document.querySelector('.list').innerHTML=totalvalue;
     }
     
