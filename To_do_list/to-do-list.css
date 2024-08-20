@@ -1,0 +1,35 @@
+body{
+  font-family: arial;
+  font-size: 14px;
+}
+.style{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+
+}
+.text_box,.date,.add_button{
+  padding:6px
+}
+.add_button{
+  color: white;
+  background-color: green;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+}
+.list{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  margin-top:10px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+.del{
+  color:white;
+  background-color: rgb(128, 3, 3);
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+}
