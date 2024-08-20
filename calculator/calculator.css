@@ -1,0 +1,29 @@
+body{
+  color: white;
+  background-color: black;
+}
+.num{
+   padding:12px 14px;
+   border-radius: 25px;
+   border:none;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   margin-right: 5px;
+}
+.operation{
+  padding:10px 14px;
+  border-radius: 16px;
+  border:none;
+  color: white;
+  background-color: rgb(255, 166, 0);
+  margin-right: 5px;
+  
+}
+.num1{
+   padding:7px;
+   border-radius:20px;
+   border:none;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   margin-right: 5px;
+}
