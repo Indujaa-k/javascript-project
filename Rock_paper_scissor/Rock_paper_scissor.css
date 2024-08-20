@@ -1,0 +1,34 @@
+body{ 
+  background-color: rgb(25, 25, 25);
+  color:white;
+  font-family: arial;
+}
+.main{
+  font-weight: bold;
+}
+.rock{
+  height: 40px;
+  width:45px;
+}
+.buttonstyle{
+  background-color: transparent;
+  border: none;
+  border:1px solid white;
+  width:80px;
+  height:80px;
+  border-radius: 50px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.result_runner{
+  font-weight: bold;
+  margin-top: 50px;
+}
+.resetbutton{
+  padding:7px;
+  border:none;
+  background-color: white;
+}
+.score_runner{
+  margin-top: 50px;
+}
