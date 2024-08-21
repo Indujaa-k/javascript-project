@@ -1,6 +1,6 @@
-JAVASCRIPT PROJECTS
+#JAVASCRIPT PROJECTS
 
-# Rock_paper_scissor
+#Rock_paper_scissor
 
 
 #To_Do_List
