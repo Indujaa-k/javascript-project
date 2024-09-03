@@ -5,37 +5,38 @@
   <link rel="stylesheet" href="calculator.css">
 </head>
 <body>
+  h1>CALCULATOR</h1>
   
-    <p>
-    <button onclick=" 
-    calc('1');
-      " class="num">1</button>
-    <button onclick=" 
-    calc('2');
-      "class="num">2</button>
-    <button onclick=" 
-    calc('3');
-      "class="num">3</button>
-    <button onclick="
-     calc(' + ');
-      " class="operation">+</button>
-    </p>
+  <p class="num_row">
+  <button onclick=" 
+  calc('1');
+    " class="num">1</button>
+  <button onclick=" 
+  calc('2');
+    "class="num">2</button>
+  <button onclick=" 
+  calc('3');
+    "class="num">3</button>
+  <button onclick="
+   calc(' + ');
+    " class="operation">+</button>
+  </p>
 
-    <p>
-      <button onclick="
-       calc('4');
-       "class="num">4</button>
-      <button onclick="
-       calc('5');
-        "class="num"v>5</button>
-      <button onclick=" 
-      calc('6');
-        "class="num">6</button>
-      <button onclick=" 
-      calc(' - ');
-        "class="operation">-</button>
-      </p>
-    <p>
+  <p class="num_row">
+    <button onclick="
+     calc('4');
+     "class="num">4</button>
+    <button onclick="
+     calc('5');
+      "class="num"v>5</button>
+    <button onclick=" 
+    calc('6');
+      "class="num">6</button>
+    <button onclick=" 
+    calc(' - ');
+      "class="operation">-</button>
+    </p>
+    <p class="num_row">
       <button onclick=" 
       calc('7');
         "class="num">7</button>
@@ -49,31 +50,36 @@
       calc(' * ');
         "class="operation">*</button>
       </p>
-      <p>
-      <button onclick=" 
-      calc('0');
-        "class="num">0</button>
-      <button onclick=" 
-      calc('.');
-        "class="num">.</button>
-      <button onclick=" 
-      calculator=eval(calculator);
-      console.log(calculator);
-      displaycalc();
-        "class="num">
-        =
-      </button>
-      <button onclick=" 
-      calc(' / ');
-        "class="operation">/</button>
-      </p>
-  <p><button onclick=" 
-       calculator='';
-       console.log(calculator)
-       displaycalc();
-       localStorage.deleteItem('calculator')
-       "class="num1">clear</button></p>
+
+    <p class="num_row">
+    <button onclick=" 
+    calc('0');
+      "class="num">0</button>
+    <button onclick=" 
+    calc('.');
+      "class="num">.</button>
+    <button onclick=" 
+    calculator=eval(calculator);
+    console.log(calculator);
+    displaycalc();
+      "class="num">
+      =
+    </button>
+    <button onclick=" 
+    calc(' / ');
+      "class="operation">/</button>
+    </p>
+
+  <p class="num_row">
+   <button onclick=" 
+     calculator='';
+     console.log(calculator)
+     displaycalc();
+     localStorage.removeItem
+     ('calculator')
+     "class="num1">clear</button>
+    </p>
   <p class="display"></p>    
-  <script src="calculator.js"> </script>
-</body>
-</html>
+  <script src="script.js"> </script>
+  </body>
+  </html>
