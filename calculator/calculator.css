@@ -2,6 +2,14 @@ body{
   color: white;
   background-color: black;
 }
+h1{
+  font-family: Georgia;
+  text-align: center;
+  padding: 30px;
+}
+.num_row{
+  text-align: center;
+}
 .num{
    padding:12px 14px;
    border-radius: 25px;
